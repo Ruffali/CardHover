@@ -1,0 +1,107 @@
+body {
+  background: black; }
+
+#ACard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%; }
+  #ACard .container-fluid .row .col-md-12 .myCards {
+    width: 100%;
+    height: 500px;
+    position: relative; }
+    #ACard .container-fluid .row .col-md-12 .myCards ul {
+      position: absolute;
+      bottom: 0%;
+      left: 50%;
+      transform: translate(-50%, 0%);
+      list-style-type: none;
+      width: 70%;
+      text-align: center;
+      padding: 0.5% 0%; }
+      #ACard .container-fluid .row .col-md-12 .myCards ul li {
+        display: inline-block;
+        width: 9%;
+        height: 150px;
+        margin: 0% -1.5%;
+        cursor: pointer;
+        position: relative;
+        transition: all 1s ease !important; }
+        #ACard .container-fluid .row .col-md-12 .myCards ul li .card {
+          position: absolute;
+          top: 0%;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(-135deg, #ff9999, #da0b0b);
+          box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.15);
+          transition: all 1s ease;
+          padding: 13%; }
+          #ACard .container-fluid .row .col-md-12 .myCards ul li .card h1 {
+            color: white;
+            font-size: 2ch;
+            text-align: left;
+            transition: all 1s ease; }
+        #ACard .container-fluid .row .col-md-12 .myCards ul li:nth-child(2) .card {
+          background: linear-gradient(-135deg, #eb99ff, #b10bda); }
+        #ACard .container-fluid .row .col-md-12 .myCards ul li:nth-child(2):hover .card {
+          background: linear-gradient(#b10bda, #eb99ff); }
+        #ACard .container-fluid .row .col-md-12 .myCards ul li:nth-child(3) .card {
+          background: linear-gradient(-135deg, #ff99d6, #da0b87); }
+        #ACard .container-fluid .row .col-md-12 .myCards ul li:nth-child(3):hover .card {
+          background: linear-gradient(#da0b87, #ff99d6); }
+        #ACard .container-fluid .row .col-md-12 .myCards ul li:nth-child(4) .card {
+          background: linear-gradient(-135deg, #ad99ff, #350bda); }
+        #ACard .container-fluid .row .col-md-12 .myCards ul li:nth-child(4):hover .card {
+          background: linear-gradient(#350bda, #ad99ff); }
+        #ACard .container-fluid .row .col-md-12 .myCards ul li:nth-child(5) {
+          transform: rotate(-6deg); }
+          #ACard .container-fluid .row .col-md-12 .myCards ul li:nth-child(5) .card {
+            background: linear-gradient(-135deg, #99ffff, #0bdada); }
+          #ACard .container-fluid .row .col-md-12 .myCards ul li:nth-child(5):hover .card {
+            background: linear-gradient(#0bdada, #99ffff); }
+        #ACard .container-fluid .row .col-md-12 .myCards ul li:nth-child(6) {
+          transform: rotate(6deg); }
+          #ACard .container-fluid .row .col-md-12 .myCards ul li:nth-child(6) .card {
+            background: linear-gradient(-135deg, #99ffc2, #0bda5e); }
+          #ACard .container-fluid .row .col-md-12 .myCards ul li:nth-child(6):hover .card {
+            background: linear-gradient(#0bda5e, #99ffc2); }
+        #ACard .container-fluid .row .col-md-12 .myCards ul li:nth-child(7) .card {
+          background: linear-gradient(-135deg, #adff99, #35da0b); }
+        #ACard .container-fluid .row .col-md-12 .myCards ul li:nth-child(7):hover .card {
+          background: linear-gradient(#35da0b, #adff99); }
+        #ACard .container-fluid .row .col-md-12 .myCards ul li:nth-child(8) .card {
+          background: linear-gradient(-135deg, #ebff99, #b1da0b); }
+        #ACard .container-fluid .row .col-md-12 .myCards ul li:nth-child(8):hover .card {
+          background: linear-gradient(#b1da0b, #ebff99); }
+        #ACard .container-fluid .row .col-md-12 .myCards ul li:nth-child(9) .card {
+          background: linear-gradient(-135deg, #ffd699, #da870b); }
+        #ACard .container-fluid .row .col-md-12 .myCards ul li:nth-child(9):hover .card {
+          background: linear-gradient(#da870b, #ffd699); }
+        #ACard .container-fluid .row .col-md-12 .myCards ul li:nth-child(10) .card {
+          background: linear-gradient(-135deg, #16A085, #2b5876); }
+        #ACard .container-fluid .row .col-md-12 .myCards ul li:nth-child(10):hover .card {
+          background: linear-gradient(#2b5876, #16A085); }
+        #ACard .container-fluid .row .col-md-12 .myCards ul li:hover {
+          transform: rotate(0deg) !important;
+          width: 12%;
+          height: 200px;
+          transition: all .2s ease; }
+          #ACard .container-fluid .row .col-md-12 .myCards ul li:hover .card {
+            top: -80%;
+            padding: 5%;
+            box-shadow: -5px 5px 25px 11px rgba(0, 0, 0, 0.15);
+            transition: all .2s ease; }
+            #ACard .container-fluid .row .col-md-12 .myCards ul li:hover .card h1 {
+              font-size: 3ch; }
+  #ACard .mySignature {
+    position: absolute;
+    bottom: -25%;
+    right: 0%;
+    width: 15%;
+    height: 150px; }
+    #ACard .mySignature img {
+      width: 100%;
+      height: 100%; }
+
+/*# sourceMappingURL=ACard.css.map */
